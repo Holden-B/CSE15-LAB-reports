@@ -17,7 +17,24 @@
 
 Firstly, install [VScode](https://code.visualstudio.com/) and download for your specified Operating System.
 
-- Follow the install instructions, and open VScode.
+Follow the install instructions and Open the VScode application, it should look like this:
+
+[Image]()
+
+
+
+**2. Remote Connection**
+
+Next, We will look at how to connect remotley to the UCSD servers. This requires a personal address. 
+
+Within VSCode:
+- open a new terminal, located at the top of the page under the terminal tab
+- within the terminal type **ssh cs15lsp22XXX@ieng6.ucsd.edu**
+- (the XXX will be your own personalized letters, different for everyone)
+- You will then be prompted for your password
+
+
+
 
 
 

@@ -9,3 +9,5 @@
 - Using **SCP** to move files
 - Setting up an **SSH** key
 
+## 1. Install VScode
+

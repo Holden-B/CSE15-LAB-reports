@@ -17,7 +17,7 @@
 
 Firstly, install [VScode](https://code.visualstudio.com/) and download for your specified Operating System.
 
-Follow the install instructions, and open VScode
+- Follow the install instructions, and open VScode.
 
 
 

@@ -1,6 +1,6 @@
 
 ### Getting started with UNIX commands and VScode
-#### (Report 1)
+#### [Week 2 Report](https://docs.google.com/document/d/1ZJsxrCRiXRbgBpAxhTRwIIqs2-xILh4EZEXfhyADS7I/edit)
 
 ---------------------------------------------------------
 

@@ -1,5 +1,5 @@
 
-## Week 2 Lab Report
+# Week 2 Lab Report
 ### [Week 2 Report doc](https://docs.google.com/document/d/1ZJsxrCRiXRbgBpAxhTRwIIqs2-xILh4EZEXfhyADS7I/edit)
 
 [Lab Report 1](https://Holden-B.github.io/CSE15-LAB-reports/lab-report-1-week2.html)
@@ -9,14 +9,14 @@
 
 > In this writeup, I will explain how to:
 - Install **VScode**
-- Remotely connect to a machine Powershell
-- Basic Unix commands
+- Remotely connect to a machine in Powershell
+- Some basic Unix commands
 - Use **SCP** to move files
 - Set up an **SSH** key
 
 ------------------------------------------------------------
 
-## **1. Install VScode**
+# **1. Install VScode**
 
 Firstly, install [VScode](https://code.visualstudio.com/) and download it for your specified Operating System.
 
@@ -26,9 +26,9 @@ Follow the install instructions and Open the VScode application, it should look 
 
 
 
-## **2. Remote Connection**
+# **2. Remote Connection**
 
-Next, We will look at how to connect remotley to the UCSD servers. This requires a personal address. 
+#### Next, We will look at how to connect remotley to the UCSD servers. This requires a personal address. 
 
 Within VSCode:
 - Click on `New File`
@@ -40,9 +40,9 @@ Within VSCode:
 
  **Bada bing, bada boom... you're now remote connected to the server**
 
-## **3. Trying Some UNIX commands**
+# **3. Trying Some UNIX commands**
 
-**Here are some basic commands to try out**
+#### **Here are some basic commands to try out**
 
 - `ls` - lists all visible directories
 - `cd` + `directoryName` - go into specified directory
@@ -52,11 +52,11 @@ Within VSCode:
 - `cat` + `filename`- displays the contents of the file
 - Find more commands [here](https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/)
 
-## **4. Move files with `scp`**
+# **4. Move files with `scp`**
 
-The command `scp` means **secure copy** and is used to copy a file from one computer to another securely (duh).
-
-ie. we could send a file from our personal machine to a remote access computer. For this example I will send the file `WhereAmI.java`
+#### `scp` or **secure copy** and is used to copy a file from one computer to another securely (duh). We can send a file from our personal machine to a remote access machine, no thumb drive or email required. 
+ 
+ For this example I will send the file `WhereAmI.java`
 
 To do this, you will need **2 Terminal Windows** in *VScode*
 - One terminal, ill call it **BOB** for now is the remote login you just did in step 2 and 3, you can ignore **BOB** for now
@@ -72,9 +72,9 @@ To do this, you will need **2 Terminal Windows** in *VScode*
 
 **Congrats champ, you just securely copied a file. Don't you feel special.**
 
-## **5. Setting up an SSH Key**
+# **5. Setting up an SSH Key**
 
-Now, `SSH` and `SCP` is really cool yeah I know. But what about the password part? It kinda sucks. It takes so long and committing passwords to memory is for squares. Fortunately theres a way around it.
+#### Now, `SSH` and `SCP` is really cool yeah I know. But what about the password part? It kinda sucks. It takes so long and committing passwords to memory is for squares. Fortunately theres a way around it.
 
 Lets learn about `keys`
 

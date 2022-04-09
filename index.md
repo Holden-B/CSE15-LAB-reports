@@ -2,9 +2,9 @@
 ### Getting started with UNIX commands and VScode
 #### [Week 2 Report](https://docs.google.com/document/d/1ZJsxrCRiXRbgBpAxhTRwIIqs2-xILh4EZEXfhyADS7I/edit)
 
-[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 1](lab-report-1-week2.html)
 
-[Lab Report 1](https://Holden-B.github.io/CSE15-LAB-reports/lab-report-1-week-2.html)
+[Lab Report 1](https://Holden-B.github.io/CSE15-LAB-reports/lab-report-1-week2.html)
 
 
 ---------------------------------------------------------

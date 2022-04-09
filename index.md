@@ -37,7 +37,7 @@ Within VSCode:
 - Within the terminal type `ssh cs15lsp22XXX@ieng6.ucsd.edu`
 - (the XXX will be your own personalized letters, different for everyone)
 - Hit `return` and you will be prompted with `Password:`
-- Enter your password
+- Enter your password and hit `return`
 
  **Bada bing, bada boom... you're now remote connected to the server**
 
@@ -46,13 +46,14 @@ Within VSCode:
 **Here are some basic commands to try out**
 
 - `ls` - lists all visible directories
+- `cd` + `directoryName` - go into specified directory
 - `cd ..` - go back one directory
 - `ls -a` - shows all directories (even the hidden ones)
 - `mkdir` + `enter a directory name` - make a directory
 - `cat` + `filename`- displays the contents of the file
 - Find more commands [here](https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/)
 
-## **4. move files with `SCP`**
+## **4. Move files with `scp`**
 
 The command `scp` means **secure copy** and is used to copy a file from one computer to another.
 

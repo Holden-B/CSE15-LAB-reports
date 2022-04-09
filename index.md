@@ -74,7 +74,9 @@ To do this, you will need **2 Terminal Windows** in *VScode*
 
 ## **5. Setting up an SSH Key**
 
-Now, `SSH` is really cool yeah I know, but what about the password part? it kinda sucks and takes a while, especially if you have to do it everytime you share a file. Fortunatley theres a way around it. 
+Now, `SSH` and `SCP` is really cool yeah I know. But what about the password part? It kinda sucks. It takes so long and committing passwords to memory is for squares. Fortunately theres a way around it.
+
+Lets learn about `keys`
 
 -
 

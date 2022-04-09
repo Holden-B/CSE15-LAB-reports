@@ -2,25 +2,23 @@
 ## Week 2 Lab Report
 ### [Week 2 Report doc](https://docs.google.com/document/d/1ZJsxrCRiXRbgBpAxhTRwIIqs2-xILh4EZEXfhyADS7I/edit)
 
-[Lab Report 1](lab-report-1-week2.html)
-
 [Lab Report 1](https://Holden-B.github.io/CSE15-LAB-reports/lab-report-1-week2.html)
 
 
 ---------------------------------------------------------
 
 > In this writeup, I will explain how to:
-- Install VScode
-- Remotely connect to a machine in VScode powershell
+- Install **VScode**
+- Remotely connect to a machine Powershell
 - Basic Unix commands
-- Using **SCP** to move files
-- Setting up an **SSH** key
+- Use **SCP** to move files
+- Set up an **SSH** key
 
 ------------------------------------------------------------
 
 ## **1. Install VScode**
 
-Firstly, install [VScode](https://code.visualstudio.com/) and download for your specified Operating System.
+Firstly, install [VScode](https://code.visualstudio.com/) and download it for your specified Operating System.
 
 Follow the install instructions and Open the VScode application, it should look like this:
 
@@ -33,11 +31,12 @@ Follow the install instructions and Open the VScode application, it should look 
 Next, We will look at how to connect remotley to the UCSD servers. This requires a personal address. 
 
 Within VSCode:
-- Open a new terminal, located at the top of the page under the terminal tab
+- Click on `New File`
+- Within the file, open a new terminal, located at the top left of the page under the terminal tab
 - Within the terminal type `ssh cs15lsp22XXX@ieng6.ucsd.edu`
 - (the XXX will be your own personalized letters, different for everyone)
-- Hit `return` and you will be prompted with `Password:`
-- Enter your password and hit `return`
+- Hit `enter` and you will be prompted with `Password:`
+- Enter your password and hit `enter`
 
  **Bada bing, bada boom... you're now remote connected to the server**
 
@@ -55,15 +54,31 @@ Within VSCode:
 
 ## **4. Move files with `scp`**
 
-The command `scp` means **secure copy** and is used to copy a file from one computer to another.
+The command `scp` means **secure copy** and is used to copy a file from one computer to another securely (duh).
 
 ie. we could send a file from our personal machine to a remote access computer. For this example I will send the file `WhereAmI.java`
 
 To do this, you will need **2 Terminal Windows** in *VScode*
-- One terminal is the remote login you just did in step 2 and 3, you can leave this one alone for now
-- second, open a new terminal and go to the directory your file is located using the `cd`
-- `WhereAmI.java` is located on my Desktop, so to get there I will enter the command:
-- `cd desktop`
+- One terminal, ill call it **BOB** for now is the remote login you just did in step 2 and 3, you can ignore **BOB** for now
+- Second, open a new terminal, we'll call him **JIM**
+- Go to the directory your file is located using the `cd` command on **JIM**
+- `WhereAmI.java` is located on my Desktop on **JIM**
+- To get to that directory, I will enter`cd desktop`
+- Next, enter `scp WhereAmI.java` + `cs15lsp22XXX@ieng6.ucsd.edu`
+- (once again the XXX is personal to you)
+- You will then be prompted by `Password:` again, you get the gist
+- Once the transfer is complete go back to the **BOB terminal**
+- Input the `ls` command, you should see `WhereAmI.java`
+
+**Congrats champ, you just securely copied a file. Don't you feel special.**
+
+## **5. Setting up an SSH Key**
+
+Now, `SSH` is really cool yeah I know, but what about the password part? it kinda sucks and takes a while, especially if you have to do it everytime you share a file. Fortunatley theres a way around it. 
+
+-
+
+
 
 
 

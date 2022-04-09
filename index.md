@@ -60,10 +60,10 @@ ie. we could send a file from our personal machine to a remote access computer. 
 
 To do this, you will need **2 Terminal Windows** in *VScode*
 - One terminal, ill call it **BOB** for now is the remote login you just did in step 2 and 3, you can ignore **BOB** for now
-- Second, open a new terminal, we'll call him **JIM**
-- Go to the directory your file is located using the `cd` command on **JIM**
+- Second, open a new terminal, we'll call it **JIM**
+- on **JIM** go to the directory your file is located using the `cd` command
 - `WhereAmI.java` is located on my Desktop on **JIM**
-- To get to that directory, I will enter`cd desktop`
+- To get to that directory, I will enter `cd desktop`
 - Next, enter `scp WhereAmI.java` + `cs15lsp22XXX@ieng6.ucsd.edu`
 - (once again the XXX is personal to you)
 - You will then be prompted by `Password:` again, you get the gist

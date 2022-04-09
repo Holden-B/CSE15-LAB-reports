@@ -57,11 +57,13 @@ Within VSCode:
 
 The command `scp` means **secure copy** and is used to copy a file from one computer to another.
 
-ie. from our personal machine to a remote access computer.
+ie. we could send a file from our personal machine to a remote access computer. For this example I will send the file `WhereAmI.java`
 
-To do this, you will need **2 Terminal Windows**
-- One is the remote login you just did in step 3, you can leave this one alone for now
+To do this, you will need **2 Terminal Windows** in *VScode*
+- One terminal is the remote login you just did in step 2 and 3, you can leave this one alone for now
 - second, open a new terminal and go to the directory your file is located using the `cd`
+- `WhereAmI.java` is located on my Desktop, so to get there I will enter the command:
+- `cd desktop`
 
 
 

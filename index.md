@@ -5,6 +5,8 @@
 #### [LinkedIn](https://www.linkedin.com/in/holden-bailey-3722721a4/)
 #### [GitHub](https://github.com/Holden-B)
 
+_______________________________________________________________________
+
 ### CSE15L labs
 - [Lab 1](https://holden-b.github.io/CSE15-LAB-reports/lab-report-1-week2.html)
 

@@ -2,8 +2,6 @@
 # Week 2 Lab Report
 ### [Week 2 Report doc](https://docs.google.com/document/d/1ZJsxrCRiXRbgBpAxhTRwIIqs2-xILh4EZEXfhyADS7I/edit)
 
-[Lab Report 1](https://Holden-B.github.io/CSE15-LAB-reports/lab-report-1-week2.html)
-
 
 ---------------------------------------------------------
 
@@ -117,6 +115,9 @@ To do this, you will need **2 Terminal Windows** in *VScode*
 - Use a `;` to have multiple commands execute at the same time
 - For example `javac WhereAmI.java; java WhereAmI` will compile and execute in one step
 - Use the **UP ARROW** on your terminal to recall commands you have already used
+
+![image](https://user-images.githubusercontent.com/103291577/163503474-5ccb383f-445b-43e2-92d8-407ddab29b34.png)
+
 
 **Thats all for now**
 

@@ -7,7 +7,7 @@
 #### [Portfolio]() -Under Construction
 
 ### CSE15L labs
-- [Lab 1]()
+- [Lab 1](https://holden-b.github.io/CSE15-LAB-reports/lab-report-1-week2.md)
 
 
 

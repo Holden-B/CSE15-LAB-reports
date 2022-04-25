@@ -1,4 +1,5 @@
-![Headshot](https://user-images.githubusercontent.com/103291577/163501978-c7711d1e-c87e-4ff9-968f-55fe6c8374ba.jpg)
+![HeadshotProfile](https://user-images.githubusercontent.com/103291577/165013595-08a59322-64d3-4346-b2a7-f15f3d6ffb8b.jpg)
+
 ## Holden Bailey
 *Speculative Design and Computer Science at UC San Diego*
 
@@ -9,6 +10,7 @@ _______________________________________________________________________
 
 ### CSE15L labs
 - [Lab 1](https://holden-b.github.io/CSE15-LAB-reports/lab-report-1-week2.html)
+- [Lab 2](https://holden-b.github.io/CSE15-LAB-reports/lab-report-2-week-4.html)
 
 
 

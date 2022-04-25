@@ -8,7 +8,7 @@
 
 _______________________________________________________________________
 
-### CSE15L labs
+## CSE15L labs
 - [Lab 1](https://holden-b.github.io/CSE15-LAB-reports/lab-report-1-week2.html)
 - [Lab 2](https://holden-b.github.io/CSE15-LAB-reports/lab-report-2-week-4.html)
 

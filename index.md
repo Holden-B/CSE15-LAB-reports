@@ -12,6 +12,7 @@ _______________________________________________________________________
 - [Lab 1](https://holden-b.github.io/CSE15-LAB-reports/lab-report-1-week2.html)
 - [Lab 2](https://holden-b.github.io/CSE15-LAB-reports/lab-report-2-week-4.html)
 - [Lab 3](https://holden-b.github.io/CSE15-LAB-reports/lab-report-3-week-6.html)
+- [Lab 4](https://holden-b.github.io/CSE15-LAB-reports/lab-report-4-week-8.html)
 
 
 

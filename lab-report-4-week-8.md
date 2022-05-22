@@ -37,4 +37,15 @@ Snippet 2 features nested parenthesis and brackets. The actual link ouput should
 
 `[a.com, a.com(()), example.com]`
 
+In my test case, I did something similar to the first one. I checked the size was correct and the first link is equal.
+
+**This is the result for the code we reviewed:**
+
+![image](https://user-images.githubusercontent.com/103291577/169720759-f8a509a8-5ac5-47a4-b0f7-4ee426a98c3b.png)
+
+This code semi passed the vibe check. it got the first URL correct, the nested one. It didnt get the size correct. The URL recorded `a.com(())` as `a.com((`.
+
+### Resolution:
+The issue with this code is that it doesnt count the amount of parenthesis or match them, meaning that when it sees the first `)` in `a.com(())` it stops and takes that as a link. This could be solved maybe not in the method, but by using a stack data structure to ensure bracket, parenthesis, and other symbol completeness. 
+
 

@@ -46,6 +46,11 @@ In my test case, I did something similar to the first one. I checked the size wa
 This code semi passed the vibe check. it got the first URL correct, the nested one. It didnt get the size correct. The URL recorded `a.com(())` as `a.com((`.
 
 ### Resolution:
-The issue with this code is that it doesnt count the amount of parenthesis or match them, meaning that when it sees the first `)` in `a.com(())` it stops and takes that as a link. This could be solved maybe not in the method, but by using a stack data structure to ensure bracket, parenthesis, and other symbol completeness. 
+The issue with this code is that it doesnt count the amount of parenthesis or match them, meaning that when it sees the first `)` in `a.com(())` it stops and takes that as a link. This could be solved with a stack data structure to ensure bracket, parenthesis, and other symbol completeness. It would likely be its own method or longer than 10 lines.
 
 
+## Snippet 3:
+
+Snippet 3 features lots of broken lines and only one of them technically counts as a link. The output should be as expected:
+
+`[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]`

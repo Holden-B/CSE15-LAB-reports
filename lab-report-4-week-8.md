@@ -26,7 +26,12 @@ In my test case, I checked that the size of the list was 3 and the first element
 
 ![image](https://user-images.githubusercontent.com/103291577/169720335-71ff0547-b481-43ec-964f-48d30f50a9c1.png)
 
-This code got the correct amount of links, but the wrong ones. It got the first `url.com` link, although according to CommonMark, it is incorrect.
+**This is the result of our code:**
+
+![image](https://user-images.githubusercontent.com/103291577/169725490-7f6df4a3-4c9f-429b-babf-26d102160020.png)
+
+
+Week 7 code got the correct amount of links, but the wrong ones. It got the first `url.com` link, although according to CommonMark, it is incorrect.
 
 ### Resolution:
 The issue here is the use of backticks in Markdown. This code doesnt have any conditions that checks the use of backticks. This would be fairly easy to implement. You would need to check if there is an opening and closing backtick and if any brackets or parenthesis are contained within, invalidating the link and continuing with the file.
@@ -43,6 +48,11 @@ In my test case, I did something similar to the first one. I checked the size wa
 
 ![image](https://user-images.githubusercontent.com/103291577/169720759-f8a509a8-5ac5-47a4-b0f7-4ee426a98c3b.png)
 
+**This is the result of our code:**
+
+![image](https://user-images.githubusercontent.com/103291577/169725547-8af69879-3be5-4365-ad65-6fb3c9b9ef04.png)
+
+
 This code semi passed the vibe check. it got the first URL correct, the nested one. It didnt get the size correct. The URL recorded `a.com(())` as `a.com((`.
 
 ### Resolution:
@@ -54,3 +64,17 @@ The issue with this code is that it doesnt count the amount of parenthesis or ma
 Snippet 3 features lots of broken lines and only one of them technically counts as a link. The output should be as expected:
 
 `[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]`
+
+**This is the result for the code we reviewed:**
+
+![image](https://user-images.githubusercontent.com/103291577/169724332-47b53491-812b-463b-8195-b62b03fe9925.png)
+
+**This is the result of our code:**
+
+![image](https://user-images.githubusercontent.com/103291577/169725596-1efd1751-f352-4e13-984e-2c4f21bb79b1.png)
+
+
+This code added the twitter link to the page, which is incorrect. It appears that the only valid types of multi-line code are the ones that dont contain spaces between the newlines
+
+### Resolution:
+This issue seems to exist with brackets having newlines and spaces between open and close, as well as the same issue with parenthesis. This issue could be fixed by some more conditional statements within the method.

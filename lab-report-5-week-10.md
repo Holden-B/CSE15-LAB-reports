@@ -20,5 +20,7 @@ Due to the large amount of test files, using `vimdiff` was the most efficient wa
 >[test-194](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/194.md)
 
 ## Test 14
-Test 14 
+Test 14 resulted in `[/foo]` for our code and `[]` for the default code. While `/foo` is not a link, It does follow the correct Markdown link formatting. On the commonmark demo it shows as an underlined link that doesnt lead to anything, meaning that our code is more correct in this instance.
+
+## Test 194
 

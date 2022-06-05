@@ -29,3 +29,8 @@ Test 194 resulted in `[url]` in our code and `[]` in the default code. This test
 
 ## Test 14 bug
 The problem for test 14 could be approached in a couple of different ways. The markdown formatting is correct, although there is no characters that would indicate what is enclosed in the parenthesis is actually a link. This could be solved in a couple of ways. I would say that having some sort of check that ensures there is a domain string (ex .com, .org, etc.). This wont ensure correctness always though such as `url.com` isnt a real URL. This doesnt facilitate an issue with the current code, but instead something to be added additionally. 
+
+This version of the code also seems to be missing a statement that checks if the bracket and parenthesis are sequential, which is why Test 194 is failing.
+
+![image](https://user-images.githubusercontent.com/103291577/172049310-a1d9eda8-ff5a-4b65-98ce-148c129ca0ed.png)
+

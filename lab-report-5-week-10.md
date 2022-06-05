@@ -8,5 +8,14 @@
 - describing what failed within the program
 
 
-## finding tests with different results
+## Finding tests with different results
 Due to the large amount of test files, using `vimdiff` was the most efficient way to observe differences between two implementations.
+
+![SharedScreenshot](https://user-images.githubusercontent.com/103291577/172047116-3cdea2ff-bada-4d16-9f37-ca423f327cd3.jpg)
+
+### Within this report we will look at Files:
+
+>[test-14](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/14.md)
+>
+>[test-194](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/194.md)
+
